@@ -7,10 +7,10 @@ public class Actividad2 {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Ingresa tu nombre: ");
-        String nombre = sc.nextLine();
-        
+        String nombre = sc.nextLine().toLowerCase();
+               
         System.out.print("Vuelve a ingresar tu nombre: ");
-        String nombre1 = sc.nextLine();
+        String nombre1 = sc.nextLine().toLowerCase();
         
         if (nombre1.equals(nombre)) {
             System.out.println ("Hola " + nombre + " bienvenido!");
